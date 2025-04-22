@@ -1,7 +1,9 @@
 "use client";
 import { useState } from "react";
+import { ChatCompletionMessage } from "./chat-completion-message.interface";
 
 export default function Home() {
+  const [messages, setMessages] = useState<ChatCompletionMessage[]>([]);
   const [message, setMessage] = useState("");
 
   const handleMessage = async () => {};
