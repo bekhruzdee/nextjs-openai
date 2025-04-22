@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "../nestjs-openai"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}
