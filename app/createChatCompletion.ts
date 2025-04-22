@@ -1,4 +1,4 @@
-"user server";
+"use server";
 
 import { ChatCompletionMessage } from "./chat-completion-message.interface";
 
